@@ -1,0 +1,4 @@
+module unload darshan
+module unload perfsuite
+module unload darshan
+module load perftools

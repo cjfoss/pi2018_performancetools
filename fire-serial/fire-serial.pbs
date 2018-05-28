@@ -1,0 +1,9 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1:xe
+#PBS -l walltime=00:01:00
+
+# Change to the directory in which the qsub command is executed
+cd $PBS_O_WORKDIR
+
+# Run the program 
+time aprun -n 1 ./fire-serial -r 1300 -c 1300 -t 1300

@@ -1,0 +1,5 @@
+module swap PrgEnv-gnu PrgEnv-cray
+module unload darshan
+module unload perfsuite
+module unload papi
+module load perftools
